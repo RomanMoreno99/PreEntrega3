@@ -13,7 +13,7 @@ loginForm.addEventListener("submit", (e) => {
     }
     loginForm.addEventListener("click", () =>{
     localStorage.setItem('registrado', JSON.stringify(valueUser));
-    window.location.href = 'homeBanking.html';
+    window.location.href = 'index.html';
     })
     
 })
